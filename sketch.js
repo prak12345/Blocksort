@@ -8,7 +8,7 @@ function preload()
 
 }
 function setup(){
- createCanvas(1000,1000);
+ createCanvas(1000, 1000);
    ic=0
      a= floor(n/3);
      

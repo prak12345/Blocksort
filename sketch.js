@@ -56,7 +56,7 @@ function draw(){
        {
            console.log("ic -- " + ic)
            var level_no = (count+ic)
-    box1 =  new baseclass( 200+(j*100),y1+200+(i*100),windowWidth/4,windowHeight/5, 'Level '+ level_no,im);
+    box1 =  new baseclass( 200+(j*100),y1+200+(i*100),windowWidth/7,windowHeight/6, 'Level '+ level_no,im);
     box1.display();
     count++;
        }
@@ -65,7 +65,7 @@ function draw(){
         {
             var level_no = (count+ic)
 
-            box1 =  new baseclass(200+(k*100),y1+200+(a*100),windowWidth/4,windowHeight/5, 'Level ' + level_no,im);
+            box1 =  new baseclass(200+(k*100),y1+200+(a*100),windowWidth/7,windowHeight/6, 'Level ' + level_no,im);
 
     box1.display();
         }

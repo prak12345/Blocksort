@@ -33,7 +33,7 @@ function mouseClicked()
     issliding = true;
     ic = ic + 12;
     console.log("ic inside isclicked " + ic)
-    y1 = 600;
+    y1 = windowHeight;
   }
 
   return false;
@@ -44,7 +44,7 @@ function draw(){
     count = 0;
     background("white");
     if(issliding){
-    y1 = y1 - 30;
+    y1 = y1 - 60;
     }
     btn1 =  new baseclass(windowWidth/2,windowHeight*9/10,windowWidth/6,windowWidth/6,'',btnimg);
 

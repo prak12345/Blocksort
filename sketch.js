@@ -65,7 +65,7 @@ function draw(){
         {
             var level_no = (count+ic)
 
-            box1 =  new baseclass(windowWidth/3+(k*windowWidth/6),y1+windowWidth/3+(a*100),windowWidth/6,windowWidth/6, 'Level ' + level_no,im);
+            box1 =  new baseclass(windowWidth/3+(k*windowWidth/6),y1+windowWidth/3+(a*windowWidth/3),winsdowWidth/6,windowWidth/6, 'Level ' + level_no,im);
 
     box1.display();
         }

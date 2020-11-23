@@ -19,7 +19,7 @@ function setup(){
 //btn.debug = true;
    // btn.addImage(btnimg);
   //  btn.scale = 0.1;
-  btn1 =  new baseclass(windowWidth/2,windowWidth,windowWidth/6,windowWidth/6,'',btnimg);
+  btn1 =  new baseclass(windowWidth/2,windowHeight*9/10,windowWidth/6,windowWidth/6,'',btnimg);
 }
 
 function mouseClicked()

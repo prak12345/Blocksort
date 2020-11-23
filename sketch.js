@@ -19,7 +19,6 @@ function setup(){
 //btn.debug = true;
    // btn.addImage(btnimg);
   //  btn.scale = 0.1;
-  btn1 =  new baseclass(windowWidth/2,windowHeight*9/10,windowWidth/6,windowWidth/6,'',btnimg);
 }
 
 function mouseClicked()
@@ -47,6 +46,8 @@ function draw(){
     if(issliding){
     y1 = y1 - 30;
     }
+    btn1 =  new baseclass(windowWidth/2,windowHeight*9/10,windowWidth/6,windowWidth/6,'',btnimg);
+
     if(!issliding){
     btn1.display();
     }

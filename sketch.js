@@ -8,7 +8,7 @@ function preload()
 
 }
 function setup(){
- createCanvas(1000, 1000);
+ createCanvas(windowWidth, windowHeight);
    ic=0
      a= floor(n/3);
      
@@ -19,7 +19,7 @@ function setup(){
 //btn.debug = true;
    // btn.addImage(btnimg);
   //  btn.scale = 0.1;
-  btn1 =  new baseclass(300,600,100,100,'',btnimg);
+  btn1 =  new baseclass(300,600,windowWidth/4,windowHeight/5,'',btnimg);
 }
 
 function mouseClicked()
